@@ -84,6 +84,7 @@ def build_draft_prompt(
     template: dict,
     style_videos: list,
     client_brief: str,
+    score_feedback: str = "",
 ) -> str:
     """
     Full script generation prompt for one account.
@@ -176,7 +177,12 @@ DO NOT shame spending habits or frame saving as sacrifice or difficulty
 DO NOT make SaveKu the main point of the video — it must feel incidental and naturally discovered
 DO NOT use perfect grammar — this is spoken word, people use filler words, incomplete sentences, trailing thoughts
 
-=== OUTPUT FORMAT ===
+{f'''=== PREVIOUS ATTEMPT FEEDBACK ===
+Your last draft did not meet the quality threshold. The reviewer noted:
+"{score_feedback}"
+Directly address these issues in this attempt. Do not repeat the same mistakes.
+
+''' if score_feedback else ""}=== OUTPUT FORMAT ===
 Return ONLY a raw JSON object. No markdown, no explanation, no code fences.
 Fill every section from the template structure above. Include stage_direction for each section.
 

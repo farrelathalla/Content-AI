@@ -242,7 +242,33 @@ A third LLM pass produces a structured numeric score that makes quality measurab
 }
 ```
 
-Scripts with `auto_approved: false` (score < 7.0) are flagged for manual review before posting.
+Scripts with `auto_approved: false` (score < 7.0) trigger automatic regeneration (see Stage 3 below).
+
+### Stage 3 — Score-Gated Regeneration Loop *(newly implemented)*
+
+If a script scores below 7.0, the pipeline doesn't just flag it — it regenerates. The `score_rationale` from the scoring pass is injected directly into the next draft prompt as an explicit correction constraint:
+
+```
+=== PREVIOUS ATTEMPT FEEDBACK ===
+Your last draft did not meet the quality threshold. The reviewer noted:
+"Hook is generic — opens with 'Jadi gini' which is a known fail pattern.
+ Slang token 'gila sih' appears but feels inserted, not native to that moment."
+Directly address these issues in this attempt. Do not repeat the same mistakes.
+```
+
+The loop runs a maximum of **3 total attempts** (1 initial + 2 regenerations). If multiple attempts are produced, the **highest-scoring script** is returned — not just the last one. Early exit on first `auto_approved: true`.
+
+```
+Attempt 1 (initial)  → score 5.8 → NEEDS REVIEW → inject rationale
+Attempt 2 (regen 1)  → score 6.4 → NEEDS REVIEW → inject rationale
+Attempt 3 (regen 2)  → score 8.1 → APPROVED     → return attempt 3
+```
+
+```
+Attempt 1 (initial)  → score 7.9 → APPROVED → return immediately (attempts 2+3 skipped)
+```
+
+This means every script that ships has either passed a 7.0 quality gate or is the best the model could produce in 3 attempts — and you know which case you're in from the `auto_approved` flag.
 
 ---
 
@@ -256,7 +282,8 @@ Scripts with `auto_approved: false` (score < 7.0) are flagged for manual review 
 | Critique finds issues                  | Revised script used; issues listed in terminal output                  |
 | Critique finds no issues               | Draft used as-is                                                       |
 | Style ref transcript is placeholder    | Draft prompt falls back to account tone description                    |
-| Scoring pass fails                     | `quality_score: null`, pipeline continues — non-fatal                  |
+| Scoring pass fails                     | `quality_score: null`, regen loop aborted — non-fatal, best script so far returned |
+| All 3 attempts score below 7.0         | Highest-scoring attempt returned, `auto_approved: false` in output     |
 | Claude subprocess times out (300s)     | Retried up to 3× with exponential backoff (2s, 4s)                     |
 
 ---
@@ -279,9 +306,9 @@ Matching sends all 4 accounts and 6 trends in one prompt — the model can reaso
 
 `style_references.json` is a curated corpus of manually transcribed TikTok excerpts grouped by niche. This gives the model real linguistic DNA rather than abstractly described tone. The format is append-only — adding a new reference is a JSON array append. No scraper, no external API.
 
-### 5. Three-pass quality control (draft → critique → score)
+### 5. Score-gated regeneration loop (draft → critique → score → regen)
 
-First-pass LLM output skews formal. The critique pass is not optional polish — it's structurally necessary to catch the 6 specific failure modes that make AI content detectable. The scoring pass makes quality measurable and filterable. Together they create a feedback loop where every script is assessed, not just generated.
+First-pass LLM output skews formal. The critique pass catches structural issues and produces a revised script. The scoring pass makes quality measurable. The regeneration loop closes the feedback loop: if the score is below threshold, the `score_rationale` is injected into the next draft prompt as a concrete correction constraint — not vague retry logic, but targeted feedback. Three attempts max; best score wins.
 
 ### 6. Anti-prompt over positive instructions alone
 
@@ -296,8 +323,6 @@ A UI adds complexity without adding evaluation signal. The CLI provides `--dry-r
 ## What I'd Improve With More Time
 
 **Prompt iteration loop.** The biggest quality lever is the prompt, not the architecture. With more time I'd run the pipeline, read every generated script carefully, identify the most common failure mode across all 4 accounts, fix one thing in `prompts.py`, and repeat. The current few-shot examples and anti-prompt list are a solid first pass but not converged.
-
-**Score-gated regeneration.** Currently the pipeline generates once per account. With the quality scoring pass in place, the natural next step is a regeneration loop: if `auto_approved` is false, regenerate with a revised prompt that incorporates the `score_rationale` as additional constraint. Cap at 2 attempts to avoid infinite loops.
 
 **Structured output enforcement.** Currently the pipeline parses JSON from free-text output, which can fail if the model wraps output in prose. Claude's native structured output (`output_config.format`) would guarantee schema-valid JSON every time, eliminating the `_parse_json()` parsing step and its failure mode entirely.
 
@@ -315,7 +340,7 @@ A UI adds complexity without adding evaluation signal. The CLI provides `--dry-r
 
 **Style references need a database.** With 50 accounts spanning more niches, `style_references.json` needs at least one category per niche cluster. A SQLite table replaces the JSON file — query by tag overlap, return top-N transcripts ranked by relevance score.
 
-**Script generation must be parallelized.** 50 accounts × 3 LLM passes = 150 sequential calls is not viable. `asyncio` with a semaphore (e.g. 5 concurrent accounts) respects rate limits without serializing everything. Estimated runtime reduction: 10× vs. sequential.
+**Script generation must be parallelized.** 50 accounts × up to 9 LLM passes (3 attempts × 3 passes) = up to 450 sequential calls is not viable. `asyncio` with a semaphore (e.g. 5 concurrent accounts) respects rate limits without serializing everything. Estimated runtime reduction: 10× vs. sequential.
 
 **Fallback matching must be removed.** `FALLBACK_MATCHES` is hardcoded for 4 specific accounts. At 50 accounts this becomes unmaintainable and wrong. Instead: if the matching call fails, retry with a smaller sub-batch; if retries fail, skip that batch and log it. Never silently produce stale assignments.
 
