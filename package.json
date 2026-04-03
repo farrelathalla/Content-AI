@@ -1,0 +1,9 @@
+{
+  "name": "content-ai-query",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Claude Agent SDK query helper for Content AI pipeline",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  }
+}

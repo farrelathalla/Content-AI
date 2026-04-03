@@ -1,0 +1,28 @@
+# Environment
+.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Personal / internal docs
+"main brief.txt"
+main\ brief.txt
+strategy.txt
+strategy2.txt
+cak-ai-conversation.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
