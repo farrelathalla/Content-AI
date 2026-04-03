@@ -1,0 +1,44 @@
+[
+  {
+    "account_id": "account_01",
+    "trend_id": "trend_02",
+    "template_id": "template_trend_hijack",
+    "reasoning": {
+      "trend_match_rationale": "trend_02 ('hidden gems warung under 20k') is a Jakarta-specific street food challenge with 'very high' engagement — a near-perfect niche, regional, and format match for @jakartafoodcraving, whose entire identity is discovering Jakarta street food and cafes for a budget-conscious millennial/gen-z audience. The trend's multi-spot food crawl format maps directly onto the account's fast-paced, voiceover-with-food-visuals posting style, making participation feel native rather than forced.",
+      "template_selection_rationale": "template_trend_hijack is the ideal fit because the account has a strong, distinctive personality voice (enthusiastic, slang-heavy, dramatically expressive) that can ride the trend's existing algorithmic momentum while injecting the SaveKu micro-savings angle as a natural extension of the under-20k budget framing.",
+      "alternative_considered": "trend_05 ('cafe Bandung yang belum rame') was the second-best option due to its similar hidden-gem food discovery format, but its Bandung-specific regional focus is a significant mismatch for an account rooted in Jakarta content targeting a Jakarta audience."
+    },
+    "fit_score": 0.95,
+    "script": {
+      "sections": [
+        {
+          "section_name": "trend_hook",
+          "dialogue": "Oke gue ikutan challenge hidden gem warung di bawah 20k — dan hasilnya? Gila sih.",
+          "estimated_duration_seconds": 3,
+          "stage_direction": "Face-to-camera, walking or already standing in a narrow Jakarta gang/alley. Slightly breathless energy, eyebrows up. Quick cut in on 'gila sih' for emphasis."
+        },
+        {
+          "section_name": "niche_twist",
+          "dialogue": "Spot pertama — nasi campur gang kecil deket Manggarai. Dua belas ribu. Ada ayam suwir, sambal matah, perkedel jagung... ini lengkap banget, serius! Porsinya juga ga pelit lho. Terus spot kedua, soto betawi gerobak pinggir jalan. Lima belas ribu doang. Kuahnya santan tapi ringan, ga berat, dagingnya empuk minta ampun... ini real, gue sruput sampe mangkoknya licin.",
+          "estimated_duration_seconds": 12,
+          "stage_direction": "Fast cuts between the two spots. For spot one: close-up of the plate, price tag overlay '12K', reaction shot of first bite with wide eyes and nodding. For spot two: dramatic slow pour of the soto broth, macro shot of meat in bowl, eating reaction with full-body 'wow' energy. Price tag overlay '15K'. Bold text overlays pop on key prices."
+        },
+        {
+          "section_name": "product_thread",
+          "dialogue": "Total dua kali makan kenyang? Dua tujuh ribu. Terus gue inget — lima ribu yang gue set otomatis di SaveKu buat nabung tiap hari tuh... lebih kecil dari ini. Gue ga ngerasa apa-apa tiap hari, tapi udah ngumpul diem-diem wkwk.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Back to face-to-camera, casual and slightly amused — like a passing thought just hit. No product visuals needed. Tone drops slightly from hype to warm and reflective, then a small laugh on 'wkwk'. Keep it conversational, like talking to a friend."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Ada hidden gem warung deket lu yang di bawah 20k? Drop di komen — gue mau hunting minggu depan!",
+          "estimated_duration_seconds": 3,
+          "stage_direction": "Direct eye contact with camera, pointing gesture toward comment section. Energy back up — excited and genuinely curious. End with a grin, not a posed smile."
+        }
+      ],
+      "total_duration_seconds": 26,
+      "language_notes": "Bahasa Indonesia ~85% / casual English loanwords ~15% ('spot', 'challenge', 'set', 'wkwk' as written laughter). Both mandatory slang tokens deployed: 'gila sih' lands in the trend hook as a genuine reaction payoff, 'ini real' punctuates the soto betawi moment for maximum credibility. Sentence rhythm is kept to one breath per line — short declarative bursts mirroring Reference 2's noodle-breakdown pacing and Reference 1's rapid-fire, comma-separated food description cadence. Self-deprecating humor ('ga ngerasa apa-apa tiap hari, tapi udah ngumpul diem-diem') keeps SaveKu framing light and non-preachy. Product reveal timed to a natural arithmetic moment — the total spend — so it feels like a genuine passing thought, not a pivot."
+    },
+    "no_match_reason": null
+  }
+]
