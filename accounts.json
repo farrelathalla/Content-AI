@@ -1,0 +1,38 @@
+[
+  {
+    "id": "account_01",
+    "handle": "@jakartafoodcraving",
+    "niche": "jakarta street food and cafe reviews",
+    "tone": "enthusiastic, warm, slightly dramatic about food discoveries, uses slang like 'gila sih' and 'ini real'",
+    "audience": "millennials and gen-z in Jakarta, 20-28, food-obsessed, middle income, frequent Grab Food users",
+    "platform": "tiktok",
+    "posting_style": "short narrated videos, face-to-camera or voiceover with food visuals, casual and fast-paced"
+  },
+  {
+    "id": "account_02",
+    "handle": "@budgetbuddysby",
+    "niche": "practical money tips for surabaya young professionals",
+    "tone": "calm, older-sibling energy, uses simple clear language, avoids jargon, occasionally funny",
+    "audience": "young professionals in Surabaya, 24-32, early career, earning 5-10M/month, want to be better with money but find finance content boring",
+    "platform": "tiktok",
+    "posting_style": "talking head with text overlays, listicle-style tips, relatable scenarios"
+  },
+  {
+    "id": "account_03",
+    "handle": "@bandungdaydream",
+    "niche": "bandung lifestyle, cafe hopping, aesthetic daily life",
+    "tone": "dreamy, soft-spoken, poetic but not pretentious, uses a lot of 'vibes' language",
+    "audience": "gen-z in Bandung, 18-25, creative types, students and freelancers, values aesthetics and 'soft life'",
+    "platform": "instagram_reels",
+    "posting_style": "aesthetic montage with soft voiceover, lo-fi music undertone, contemplative pacing"
+  },
+  {
+    "id": "account_04",
+    "handle": "@ngobrolbisnis",
+    "niche": "casual business talk for first-time entrepreneurs",
+    "tone": "direct, encouraging, no-nonsense but not harsh, like a mentor at a warung kopi",
+    "audience": "aspiring and early-stage entrepreneurs, 25-35, mostly male, java-based, running or planning small businesses",
+    "platform": "tiktok",
+    "posting_style": "face-to-camera monologue, strong opening hook, storytelling with a lesson"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "description": "The pipeline must produce an array of these objects, one per account. If no suitable trend is found for an account, the entry should still exist with a null trend_id, no_match_reason explaining why, and no script.",
+  "schema": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": [
+        "account_id",
+        "trend_id",
+        "template_id",
+        "reasoning",
+        "fit_score",
+        "script"
+      ],
+      "properties": {
+        "account_id": {
+          "type": "string",
+          "description": "The account ID from accounts.json"
+        },
+        "trend_id": {
+          "type": ["string", "null"],
+          "description": "The matched trend ID from trends.json. Null if no suitable trend was found."
+        },
+        "template_id": {
+          "type": ["string", "null"],
+          "description": "The selected template ID from templates.json. Null if no trend was matched."
+        },
+        "reasoning": {
+          "type": "object",
+          "properties": {
+            "trend_match_rationale": {
+              "type": "string",
+              "description": "Why this trend was selected for this account. Reference specific attributes of both the trend and the account profile."
+            },
+            "template_selection_rationale": {
+              "type": "string",
+              "description": "Why this template structure fits the account-trend combination."
+            },
+            "alternative_considered": {
+              "type": "string",
+              "description": "What was the second-best trend or template option and why it was not chosen."
+            }
+          }
+        },
+        "fit_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence score for the match. 0.0 = forced fit, 1.0 = perfect natural alignment. Be honest — not everything will be a 0.9."
+        },
+        "script": {
+          "type": ["object", "null"],
+          "description": "The generated script broken into sections matching the template structure. Null if no trend matched.",
+          "properties": {
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "section_name": {
+                    "type": "string"
+                  },
+                  "dialogue": {
+                    "type": "string",
+                    "description": "The actual spoken script text for this section."
+                  },
+                  "estimated_duration_seconds": {
+                    "type": "number"
+                  },
+                  "stage_direction": {
+                    "type": "string",
+                    "description": "Visual or performance notes for this section."
+                  }
+                }
+              }
+            },
+            "total_duration_seconds": {
+              "type": "number"
+            },
+            "language_notes": {
+              "type": "string",
+              "description": "Any notes on language mix, slang usage, or tone calibration specific to this script."
+            }
+          }
+        },
+        "no_match_reason": {
+          "type": ["string", "null"],
+          "description": "If no trend was matched, explain why none of the available trends fit this account. Null if a match was made."
+        }
+      }
+    }
+  }
+}

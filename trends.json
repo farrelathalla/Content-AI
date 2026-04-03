@@ -1,0 +1,94 @@
+[
+  {
+    "id": "trend_01",
+    "topic": "gaji 8 juta cukup ga sih",
+    "description": "Viral debate on TikTok about whether Rp 8M/month salary is enough to live comfortably in major Indonesian cities. People are sharing breakdowns of their monthly expenses, some serious, some comedic.",
+    "region": "indonesia_nationwide",
+    "engagement_signal": "high",
+    "niche_tags": [
+      "personal finance",
+      "young professionals",
+      "cost of living",
+      "salary talk"
+    ],
+    "trending_format": "expense breakdown with reaction",
+    "peak_window": "active now, estimated 3-5 days remaining"
+  },
+  {
+    "id": "trend_02",
+    "topic": "hidden gems warung under 20k",
+    "description": "Food accounts competing to find the best street food meals under Rp 20,000. Started in Jakarta, spreading to other cities. Format is usually a 'challenge' style video visiting multiple spots.",
+    "region": "jakarta",
+    "engagement_signal": "very high",
+    "niche_tags": [
+      "street food",
+      "budget eating",
+      "jakarta food",
+      "food challenge"
+    ],
+    "trending_format": "multi-spot food crawl with price tags",
+    "peak_window": "peaked 2 days ago, still strong engagement"
+  },
+  {
+    "id": "trend_03",
+    "topic": "romanticize your boring life",
+    "description": "A resurgence of the 'romanticize your life' trend but specifically focused on making mundane routines feel cinematic. Morning coffee rituals, commute playlists, simple home cooking. Aesthetic-heavy, lo-fi soundtrack.",
+    "region": "indonesia_nationwide",
+    "engagement_signal": "medium-high",
+    "niche_tags": [
+      "lifestyle",
+      "aesthetic",
+      "daily routine",
+      "soft life",
+      "self-care"
+    ],
+    "trending_format": "aesthetic montage with voiceover reflection",
+    "peak_window": "steady trend, not time-sensitive"
+  },
+  {
+    "id": "trend_04",
+    "topic": "first year bisnis jangan gini",
+    "description": "Entrepreneurs sharing their biggest first-year mistakes. Mix of serious advice and self-deprecating humor. Comment sections are very active with people sharing their own failures.",
+    "region": "java",
+    "engagement_signal": "high",
+    "niche_tags": [
+      "entrepreneurship",
+      "business mistakes",
+      "startup",
+      "small business"
+    ],
+    "trending_format": "storytelling monologue with mistake reveals",
+    "peak_window": "active now, estimated 4-6 days remaining"
+  },
+  {
+    "id": "trend_05",
+    "topic": "cafe Bandung yang belum rame",
+    "description": "Bandung creators racing to showcase cafes that haven't gone viral yet. The appeal is 'I found this before it blew up.' Aesthetic-focused, usually with pricing info included.",
+    "region": "bandung",
+    "engagement_signal": "high",
+    "niche_tags": [
+      "cafe",
+      "bandung",
+      "hidden gem",
+      "aesthetic",
+      "cafe hopping"
+    ],
+    "trending_format": "cafe tour with dreamy visuals and price breakdown",
+    "peak_window": "active now, estimated 5-7 days remaining"
+  },
+  {
+    "id": "trend_06",
+    "topic": "nabung 100rb sehari challenge",
+    "description": "People attempting to save Rp 100,000 per day for a month and documenting the struggle. Mix of motivational and comedic content as people try to cut expenses. Some are failing publicly which is driving engagement.",
+    "region": "indonesia_nationwide",
+    "engagement_signal": "medium",
+    "niche_tags": [
+      "saving challenge",
+      "personal finance",
+      "daily vlog",
+      "money"
+    ],
+    "trending_format": "daily diary or weekly recap of saving attempt",
+    "peak_window": "emerging trend, early stage"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "template_relatable_struggle",
+    "name": "Relatable Struggle → Product Reveal",
+    "description": "Start with a painfully relatable daily scenario the audience knows too well. Build the emotional tension. Then introduce the product as an effortless resolution — not a hard sell, just a natural 'oh by the way' moment.",
+    "structure": [
+      {
+        "section": "hook",
+        "instruction": "Open with a specific, visual scenario the audience has lived. Make them feel seen in the first 3 seconds. Use second person or first person.",
+        "max_duration_seconds": 5
+      },
+      {
+        "section": "escalation",
+        "instruction": "Deepen the struggle. Add a second layer that makes it funny or painfully real. This is where the audience thinks 'this is literally me.'",
+        "max_duration_seconds": 10
+      },
+      {
+        "section": "pivot",
+        "instruction": "Shift the energy. Introduce a small change or realization. This is NOT the product pitch — it's the emotional turn from problem to possibility.",
+        "max_duration_seconds": 5
+      },
+      {
+        "section": "soft_reveal",
+        "instruction": "Mention the product naturally as part of the story resolution. It should feel like something the narrator discovered, not something they're selling.",
+        "max_duration_seconds": 8
+      },
+      {
+        "section": "cta",
+        "instruction": "End conversationally. Question, gentle nudge, or social proof. Must follow client CTA guidelines.",
+        "max_duration_seconds": 5
+      }
+    ],
+    "total_target_seconds": 33,
+    "best_for": [
+      "relatable daily life content",
+      "audience segments that resist hard sells",
+      "building trust with new accounts"
+    ]
+  },
+  {
+    "id": "template_trend_hijack",
+    "name": "Trend Hijack",
+    "description": "Take a trending topic, sound, or cultural moment and reframe it through the lens of the account's niche. The trend is the vehicle, the niche perspective is the payload, and the product mention is a natural extension.",
+    "structure": [
+      {
+        "section": "trend_hook",
+        "instruction": "Reference the trend immediately so the audience recognizes it. Use the trending phrase, format, or setup that people already know.",
+        "max_duration_seconds": 4
+      },
+      {
+        "section": "niche_twist",
+        "instruction": "Reinterpret the trend through the account's specific niche. This is where the content becomes unique — same trend, completely different angle.",
+        "max_duration_seconds": 12
+      },
+      {
+        "section": "product_thread",
+        "instruction": "Weave the product into the niche interpretation. It should feel like a natural part of the twisted narrative, not an interruption.",
+        "max_duration_seconds": 8
+      },
+      {
+        "section": "cta",
+        "instruction": "Close with the trend's energy intact. The CTA should match the trend's tone while following client guidelines.",
+        "max_duration_seconds": 4
+      }
+    ],
+    "total_target_seconds": 28,
+    "best_for": [
+      "riding algorithmic momentum",
+      "reaching new audiences via trend discovery",
+      "accounts with strong personality voice"
+    ]
+  },
+  {
+    "id": "template_soft_tutorial",
+    "name": "Soft Tutorial",
+    "description": "Teach something genuinely useful related to the account's niche. The product appears as one tool or step within the tutorial — helpful, not central. The audience should feel like they learned something even if they ignore the product entirely.",
+    "structure": [
+      {
+        "section": "value_hook",
+        "instruction": "Promise a specific, useful outcome. 'How to X' or 'The trick to Y' — something the audience actually wants to know, related to the account niche.",
+        "max_duration_seconds": 5
+      },
+      {
+        "section": "teaching_body",
+        "instruction": "Deliver 2-3 genuine tips or steps. These must be actually useful, not filler leading to a pitch. The audience should get real value here.",
+        "max_duration_seconds": 18
+      },
+      {
+        "section": "product_as_tool",
+        "instruction": "Introduce the product as one of the steps or tools — framed as something that makes one of the tips easier. It should feel like a recommendation, not a sponsorship.",
+        "max_duration_seconds": 7
+      },
+      {
+        "section": "cta",
+        "instruction": "Wrap up the tutorial with encouragement. CTA ties back to the learning, not the product. Follow client CTA guidelines.",
+        "max_duration_seconds": 5
+      }
+    ],
+    "total_target_seconds": 35,
+    "best_for": [
+      "building authority in a niche",
+      "educational content accounts",
+      "audiences that value practical information over entertainment"
+    ]
+  }
+]
