@@ -8,7 +8,7 @@ Built for the **CAKAI Software Engineer Assessment**. Fictional client: **SaveKu
 
 ## Demo
 
-> **[INSERT LOOM RECORDING LINK HERE]**
+> **https://drive.google.com/drive/u/0/folders/1GOT6bmL8h5bw9oQ36FzTXm19iv_yVqe_**
 > 2–3 minute walkthrough of the pipeline running end-to-end across all 4 accounts.
 
 ---
