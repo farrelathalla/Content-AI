@@ -242,8 +242,10 @@ def run_pipeline(args):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_path = OUTPUT_DIR / f"results_{timestamp}.json"
 
+    # Strip quality_score before writing — output must conform to output_schema.json
+    schema_results = [{k: v for k, v in r.items() if k != "quality_score"} for r in results]
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+        json.dump(schema_results, f, indent=2, ensure_ascii=False)
 
     print_final_summary(results, output_path)
 
