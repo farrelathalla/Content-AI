@@ -1,0 +1,50 @@
+[
+  {
+    "account_id": "account_02",
+    "trend_id": "trend_01",
+    "template_id": "template_relatable_struggle",
+    "reasoning": {
+      "trend_match_rationale": "trend_01's viral salary debate ('gaji 8 juta cukup ga sih') is a direct bullseye for @budgetbuddysby's niche of practical money tips — the trend's niche tags (personal finance, young professionals, cost of living, salary talk) map 1-to-1 with the account's focus, and its core audience of people breaking down monthly expenses overlaps perfectly with @budgetbuddysby's target of 24–32 year old early-career earners making 5–10M/month who already think about whether their income is enough. The nationwide reach of the trend fully covers Surabaya, and the 'expense breakdown with reaction' format translates naturally into the account's talking head + text overlay posting style.",
+      "template_selection_rationale": "template_relatable_struggle is the ideal fit because the account's calm older-sibling tone and relatable-scenario posting style are built for empathizing with a financial pain point first before offering a solution — exactly the structure this template provides — and the trend's inherently emotional 'is my salary enough?' framing gives a natural setup for a product reveal without feeling like a hard sell to an audience that already distrusts finance ads.",
+      "alternative_considered": "trend_06 (nabung 100rb sehari challenge) was the second-strongest option at ~0.72 due to its personal finance and saving focus, but it was not chosen because the saving amount (Rp 100,000/day) is 20× the SaveKu micro-savings product value (Rp 5,000/day), creating a brand-message mismatch, and its daily-diary format aligns less naturally with @budgetbuddysby's listicle and talking-head style."
+    },
+    "fit_score": 0.92,
+    "script": {
+      "sections": [
+        {
+          "section_name": "hook",
+          "dialogue": "Gaji delapan juta sebulan. Ngerasa gede... sampe tanggal dua belas.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Talking head, calm direct eye contact. Slight knowing smile on 'tanggal dua belas' — pause there for emphasis. No intro, just cut straight in."
+        },
+        {
+          "section_name": "escalation",
+          "dialogue": "Kos dua juta. Makan sehari empat puluh ribu dikali tiga puluh — itu aja udah sejuta dua. Belum bensin, tagihan listrik, wifi. Terus tiba-tiba ada yang ulang tahun... ada kondangan bulan depan. Eh kok sisa tiga ratus ribu? Padahal ngerasa nggak beli apa-apa yang mahal lho.",
+          "estimated_duration_seconds": 10,
+          "stage_direction": "Text overlay pops up as each expense is mentioned — simple bullet list beside the face. Pace speeds up slightly during the list to build pressure, then slows on 'tiga ratus ribu' for comedic timing. Mild disbelief expression, not panicked."
+        },
+        {
+          "section_name": "pivot",
+          "dialogue": "Yang bikin pusing tuh bukan soal gajinya gede apa kecil sih. Tapi emang nggak pernah ada 'sisa' kalau dari awal kita nunggu sisa.",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Lean in slightly, softer tone — older-sibling realness. Short pause before 'nunggu sisa' to let it land. No text overlay here, just face."
+        },
+        {
+          "section_name": "soft_reveal",
+          "dialogue": "Gue dulu iseng nyoba fitur di SaveKu — Tabungan Mikro namanya. Lima ribu sehari, otomatis kepotong sendiri dari e-wallet. Nggak kerasa, nggak nyakitin. Sebulan kemudian ada seratus lima puluh ribu yang gue bahkan nggak inget nyimpen.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Casual delivery — like sharing something you just remembered, not presenting a product. Slight laugh on 'nggak inget nyimpen.' Keep it throwaway, not a big reveal moment. Maybe scratch the back of your head, relaxed posture."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Lu udah mulai belum? Atau masih nunggu sisa juga?",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Warm, slightly amused smile — the kind an older sibling gives when they already know the answer. Direct eye contact. Fade or freeze on the question."
+        }
+      ],
+      "total_duration_seconds": 31,
+      "language_notes": "Script runs ~85% casual Bahasa Indonesia, ~15% natural English loan words embedded (wifi, e-wallet). No full English sentences — just embedded terms urban Surabayan professionals actually use. Tone calibrated for calm older-sibling energy: no panic, no preach, no hype. Filler rhythm borrowed from References 1 and 2 — short declarative sentences, trailing pauses with ellipses, self-inclusive phrasing ('gue dulu juga gitu' spirit without copying). Slang register kept low-key: 'iseng,' 'eh kok,' 'nggak nyakitin' — nothing forced. The pivot line revised from 'gede kecilnya gajinya' (nominalized, written) to 'gajinya gede apa kecil' (natural spoken comparison) to smooth the rhythm at the script's emotional turning point. The forbidden word 'investasi' avoided entirely; saving framed as painless and incidental, never as discipline or sacrifice."
+    },
+    "no_match_reason": null
+  }
+]

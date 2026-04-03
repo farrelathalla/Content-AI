@@ -1,0 +1,182 @@
+[
+  {
+    "account_id": "account_01",
+    "trend_id": "trend_02",
+    "template_id": "template_trend_hijack",
+    "reasoning": {
+      "trend_match_rationale": "Trend_02 is a Jakarta-specific street food challenge focused on finding meals under Rp 20,000 — a direct niche match for @jakartafoodcraving whose entire identity is Jakarta street food and cafe reviews targeting food-obsessed millennials and gen-z in the same city. The trend's multi-spot food crawl format with price tags maps perfectly to the account's fast-paced, narrated video style with food visuals.",
+      "template_selection_rationale": "Template_trend_hijack is ideal here because @jakartafoodcraving has a strong, enthusiastic personality voice ('gila sih', 'ini real') that can ride the algorithmic momentum of this very-high-engagement Jakarta food challenge to reach new audiences organically.",
+      "alternative_considered": "Trend_06 (nabung 100rb sehari challenge) was briefly considered since a 'budget eating' angle could loosely connect, but it is a finance-first trend with no food niche overlap, the region is nationwide without Jakarta specificity, and it would require awkward thematic stretching for a food-focused account."
+    },
+    "fit_score": 0.95,
+    "script": {
+      "sections": [
+        {
+          "section_name": "trend_hook",
+          "dialogue": "Gue challenge diri sendiri. Hidden gem warung Jakarta di bawah dua puluh ribu. Tiga spot, satu hari. Gas.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Face-to-camera, outdoor street setting. Energetic pointing gesture on 'tiga spot'. Quick cut to first warung establishing shot. Bold price overlay: 'UNDER 20K CHALLENGE' pops up."
+        },
+        {
+          "section_name": "niche_twist",
+          "dialogue": "Pertama — nasi uduk Kemayoran, dua belas ribu. Ini real, tempe gorengnya renyah sampai gue ketagihan minta tambah. Dua belas ribu! Kedua — mie ayam Bang Udin deket Senen, lima belas ribu. Porsinya luber-luber ya, ayamnya dimasak kecap... manis gurih smoky gitu. Gimana caranya lima belas ribu? Ketiga — pecel Bu Wati, Bendungan Hilir, tujuh belas ribu. Kuah kacangnya... ya Allah, gila sih. Gue abis dua porsi.",
+          "estimated_duration_seconds": 12,
+          "stage_direction": "Fast cuts between each warung: close-up of steaming nasi uduk, dramatic noodle pull on mie ayam, slow pour of peanut sauce on pecel. Price tags animate on-screen per spot. Creator eating with exaggerated reactions — wide eyes, chef's kiss on the pecel shot. Keep pacing relentless, almost breathless."
+        },
+        {
+          "section_name": "product_thread",
+          "dialogue": "Yang bikin gue lebih kaget tuh bukan makanannya. Total tiga spot — empat puluh empat ribu. Makan enak seharian. Oh, gue juga lagi nyobain SaveKu — ada fitur auto potong lima ribu sehari dari e-wallet. Kecil banget sumpah. Dari makan kayak gini? Lima ribu tuh bahkan gak kerasa.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Casual phone-to-camera, slightly more intimate — like talking to a friend after the food crawl. Quick cut to a total receipt shot (handwritten style: '44rb'). Brief screen recording of SaveKu app, just a glance — 2 seconds max. Not zoomed in, not highlighted. Back to creator face immediately."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Warung hidden gem lu di mana? Drop di komen — gue mau bikin list bareng.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Creator leans into camera with a grin, chopsticks or fork still in hand from the last spot. Comment icon animation overlaid. Ends on a close-up of the last dish — pecel — before cut to black."
+        }
+      ],
+      "total_duration_seconds": 28,
+      "language_notes": "Bahasa Indonesia ~85%, casual English loan words absent by design — this account's audience responds more to raw Betawi-adjacent street energy than code-switching. Slang tokens deployed: 'gila sih' lands on the pecel moment (peak emotional reaction, most natural placement) and 'ini real' anchors the first warung reveal as a credibility stamp. Sentence length follows the reference cadence — 4 to 7 words max before a beat or cut. Filler energy ('ya', 'tuh', 'gitu', 'oh') kept high to preserve spoken authenticity. KEY FIXES: (1) SaveKu reframed with 'Oh, gue juga lagi nyobain' — the 'Oh' and 'juga' signal an afterthought, not a pivot; 'lagi nyobain' (currently trying) reads as organic personal discovery, not a paid mention. The broken 'nguap/ketangkep' metaphor replaced with a self-evident, non-judgmental observation: 5k doesn't feel like anything when you just ate well for 44k — no implication that the audience wastes money. (2) CTA returns entirely to food territory: 'gue mau bikin list bareng' closes on community and shared discovery, which is the authentic end state of a food crawl video. One product mention is sufficient; the second savings nudge in the CTA was eroding trust, not building it."
+    },
+    "no_match_reason": null
+  },
+  {
+    "account_id": "account_02",
+    "trend_id": "trend_01",
+    "template_id": "template_relatable_struggle",
+    "reasoning": {
+      "trend_match_rationale": "Trend_01's viral debate about whether Rp 8M/month is enough to live comfortably is a textbook fit for @budgetbuddysby, whose exact mission is practical money tips for Surabaya young professionals earning 5–10M/month — the trend's salary figure lands squarely in that range and speaks directly to cost-of-living anxieties the account's audience already feels. The trend's nationwide reach covers Surabaya, and its expense-breakdown format aligns with the account's listicle-style, relatable-scenario talking-head posts.",
+      "template_selection_rationale": "Template_relatable_struggle fits because @budgetbuddysby's calm, older-sibling tone is built for earning trust rather than hard selling, and the template's 'relatable daily life → product reveal' arc mirrors the trend's natural storytelling shape of shared financial anxiety leading to a solution.",
+      "alternative_considered": "Trend_06 (nabung 100rb sehari challenge) was the runner-up given its personal finance and saving angle, but it is an emerging trend still in early stages with only medium engagement signal, and its daily-diary format is misaligned with the account's structured, listicle-style posts."
+    },
+    "fit_score": 0.94,
+    "script": {
+      "sections": [
+        {
+          "section_name": "hook",
+          "dialogue": "Gaji delapan juta di Surabaya. Cukup nggak sih?",
+          "estimated_duration_seconds": 3,
+          "stage_direction": "Talking head, neutral-to-slightly-skeptical expression. Pause after 'Surabaya' — let the question land. No smile yet. Direct eye contact into camera."
+        },
+        {
+          "section_name": "escalation",
+          "dialogue": "Oke kita bedah bareng ya, santai aja. Kosan daerah Gubeng atau Rungkut yang layak — satu juta lima, udah pergi. Makan sehari lima puluh ribu, dikali sebulan, satu setengah juta lagi. Bensin, internet, listrik — nambah lima ratusan. Belum nongkrong. Belum yang 'ah ini murah kok, beli aja deh.' Eh... tiba-tiba tanggal delapan belas, saldo tinggal tiga ratus ribu. Padahal nggak ngerasa beli yang mahal-mahal.",
+          "estimated_duration_seconds": 11,
+          "stage_direction": "Slightly leaning forward, counting on fingers for each expense item. Text overlay pops up with each cost figure. Small exhale-laugh at the 'beli aja deh' line — self-aware, not bitter. Expression shifts to 'yeah, this is painfully real.'"
+        },
+        {
+          "section_name": "pivot",
+          "dialogue": "Bukan gajinya yang kurang, sih. Lebih ke... emang nggak pernah ada yang disisiin duluan. Habis kesana-kesini dulu, baru mau nabung — ya udah keburu abis lah.",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Lean back slightly, calmer energy. Softer tone, like talking to a younger sibling. Short pause after 'lebih ke...' — let it breathe. This is the older-sibling realization moment, not a lecture."
+        },
+        {
+          "section_name": "soft_reveal",
+          "dialogue": "Gue nemu satu hal yang lumayan ngebantu. Namanya SaveKu — dia auto-potong tiap hari dari e-wallet. Lima ribu doang. Nggak kerasa sama sekali, beneran. Tapi sebulan kemudian... eh ada seratus lima puluh ribu nangkring di tabungan. Gue nggak ngapa-ngapain. Dia yang jalan sendiri.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Casual, slightly surprised expression — like recounting something that genuinely caught you off guard. Show phone screen briefly (optional b-roll). Tone stays flat and matter-of-fact, NOT excited or salesy. 'Lima ribu doang' gets a tiny shrug — normalize how small the number is."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Lu udah mulai belum? Atau masih nunggu sisa gaji dulu — kayak gue dulu?",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Warm smile, slight head tilt. End on a knowing look — the 'I've been there' energy. No urgency, no pitch face. Just a question hanging in the air."
+        }
+      ],
+      "total_duration_seconds": 31,
+      "language_notes": "Bahasa Indonesia ~85%, casual English loan words absent by design — this account skews more accessible/practical than finance-influencer coded. Filler cadence borrowed from References 1 and 2: fragmented sentences, ellipses for thinking pauses, 'sih' and 'lah' as natural sentence softeners. 'Nangkring' used as single local color word without over-slang-ing. 'Disisiin' replaces 'disisihkan' throughout for spoken-word authenticity — informal verb reduction consistent with how this age group actually speaks in Surabaya. 'Namanya SaveKu' replaces 'Ada fitur namanya SaveKu' — removes the product-brief framing, keeps the personal-discovery register ('gue nemu... namanya SaveKu'). Older-sibling tone maintained throughout: never condescending, never hype, always like someone who's already made the mistake and lived it. SaveKu introduced once, in past tense, as incidental discovery. No forbidden words. Hook plugs directly into the viral expense-breakdown trend format."
+    },
+    "no_match_reason": null
+  },
+  {
+    "account_id": "account_03",
+    "trend_id": "trend_05",
+    "template_id": "template_trend_hijack",
+    "reasoning": {
+      "trend_match_rationale": "Trend_05 is a Bandung-specific trend where creators showcase undiscovered cafes — a near-perfect niche match for @bandungdaydream, which is entirely dedicated to Bandung lifestyle, cafe hopping, and aesthetic daily life for a gen-z creative audience aged 18–25 in the same city. The trend's dreamy cafe-tour format with aesthetic visuals and pricing info directly mirrors the account's aesthetic montage posting style with soft voiceover and lo-fi undertones.",
+      "template_selection_rationale": "Template_trend_hijack is the right choice because the 'I found this before it blew up' trend has strong algorithmic momentum on Instagram Reels, and @bandungdaydream's distinct dreamy, poetic personality voice gives it a competitive edge to stand out in a crowded trend field.",
+      "alternative_considered": "Trend_03 (romanticize your boring life) was a strong second at approximately 0.83 due to its aesthetic, soft-life, lo-fi tone that closely matches the account's style, but it lacks Bandung regional specificity and cafe-hopping niche alignment, making it a thematic fit without the critical geographic and topical precision that trend_05 offers."
+    },
+    "fit_score": 0.97,
+    "script": {
+      "sections": [
+        {
+          "section_name": "trend_hook",
+          "dialogue": "Kalian tau kan yang lagi pada nyari café Bandung yang belum rame? Gue nemu satu yang... aduh.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Slow push-in on a nearly empty café interior. Warm afternoon light bleeding through thin curtains. Creator's face not shown — just hands wrapping around a ceramic cup. Voice is barely above a whisper, like sharing a secret."
+        },
+        {
+          "section_name": "niche_twist",
+          "dialogue": "Dindingnya masih bau kayu baru. Musiknya jazz, tipis banget, dari speaker yang kayaknya umurnya lebih tua dari gue. Sore itu cuma ada gue, satu latte — tiga puluh ribu — sama cahaya yang masuk dari jendela sebelah kiri... vibes-nya tuh... gue ga nemu kata yang tepat. Kayak Bandung lagi ngobrol pelan-pelan sama kamu. Cuma sama kamu aja.",
+          "estimated_duration_seconds": 13,
+          "stage_direction": "Slow montage: close-up of wood grain on the table, a latte being set down with steam rising, a window with soft bokeh light, empty chairs in the background. No jump cuts — every transition is a slow dissolve. Lo-fi ambient music underneath. Creator's voice stays soft, contemplative, trailing at the end of each sentence."
+        },
+        {
+          "section_name": "product_thread",
+          "dialogue": "Lucu-nya... sambil duduk di sana gue buka hp. Bukan buat foto, beneran. Dan ada notif masuk — SaveKu. Lima ribu, kepotong otomatis tadi pagi. Lima ribu. Harga segelas air mineral di sini. Dan gue ga kerasa kehilangan apa-apa.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Creator picks up phone — shot from above, casual. A notification banner visible but not emphasized. A small smile. Cut back to the window light. The moment feels private, not performative. No logo zoom, no app showcase — just a fleeting detail in an otherwise quiet afternoon."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Lu udah mulai belum?",
+          "estimated_duration_seconds": 3,
+          "stage_direction": "Hold on a final wide shot of the empty café, golden hour light now fully hitting the room. Silence for half a beat after the line. Text on screen fades in slowly in a thin serif font — same question. No music swell. Just stillness."
+        }
+      ],
+      "total_duration_seconds": 28,
+      "language_notes": "Bahasa Indonesia ~90%, casual English loan words absent by design — this account leans poetic Bahasa, not code-switching. 'Vibes' used as the one English token (mandatory slang) and lands naturally mid-description where no Bahasa word captures the same feeling. Sentence rhythm mirrors Reference 4 (Pasar Cikapundung) — short declarative images strung together with ellipses, letting silence do the work between thoughts. Tone calibrated to the softest, most introspective register of the style references: no energy spikes, no hype, no exclamations. Two micro-fixes applied: 'keauto-potong' replaced with 'kepotong otomatis' for frictionless spoken delivery; 'bahkan' removed from the closing product line to strip the faint argumentative undertone and return the observation to pure internal reflection. The SaveKu mention continues to read as a private journal entry detail, consistent with the contemplative pacing of the account persona."
+    },
+    "no_match_reason": null
+  },
+  {
+    "account_id": "account_04",
+    "trend_id": "trend_04",
+    "template_id": "template_relatable_struggle",
+    "reasoning": {
+      "trend_match_rationale": "Trend_04 features entrepreneurs sharing their biggest first-year business mistakes in a storytelling monologue format — an exact match for @ngobrolbisnis, whose entire identity is casual business mentorship for first-time entrepreneurs, delivered via face-to-camera storytelling with a strong opening hook and a lesson payoff. The trend is Java-based with high engagement, aligning with the account's audience of aspiring and early-stage entrepreneurs aged 25–35 across Java.",
+      "template_selection_rationale": "Template_relatable_struggle is the strongest fit because the trend's 'mistake reveals' narrative structure naturally maps to the struggle → insight → solution arc, allowing @ngobrolbisnis to build authentic trust with its audience before introducing SaveKu as part of the business lesson.",
+      "alternative_considered": "Trend_01 (gaji 8 juta cukup ga sih) was considered as a secondary option since the account's audience includes salaried young professionals who may relate to the cost-of-living debate, but the trend is finance/salary-focused rather than entrepreneurship-focused and lacks the business-mistake storytelling format that defines @ngobrolbisnis's posting style."
+    },
+    "fit_score": 0.97,
+    "script": {
+      "sections": [
+        {
+          "section_name": "hook",
+          "dialogue": "Tahun pertama bisnis gue... gue kira omset gede itu udah berarti sukses. Gilaaaa salahnya di situ.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Medium shot, face to camera at a coffee shop table. Slight head shake, wry smile. Hard pause after 'sukses' — let it breathe before the pivot."
+        },
+        {
+          "section_name": "escalation",
+          "dialogue": "Tiap bulan angkanya keliatan oke. Lima puluh juta... enam puluh juta... tapi kok rekening gue mepet terus ya? Nah ternyata — duit usaha sama duit pribadi nyampur, bro. Omset masuk, keluar buat bensin, keluar buat makan siang, keluar buat stok yang gue panic-buying karena takut kehabisan. Ga keliatan mana yang bocor. Ga keliatan sama sekali.",
+          "estimated_duration_seconds": 10,
+          "stage_direction": "Leans slightly forward. Uses fingers to tick off each mistake. Expression shifts from confident to genuinely sheepish — this is the audience's 'ini gue banget' moment. Voice drops a little on the last line for comedic deflation."
+        },
+        {
+          "section_name": "pivot",
+          "dialogue": "Terus ada mentor gue — ngobrol santai, warung kopi biasa — dia bilang satu hal yang bikin gue diem. 'Bisnis lo mau sehat, lo sendiri harus belajar nyisihin dulu.' Bukan nunggu gede. Bukan nunggu stabil. Sekarang.",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Tone softens. Leaning back, like genuinely recalling a memory. Delivers the mentor's line slightly slower, with weight. Direct eye contact locks back in on 'Sekarang' — that word lands like a tap on the shoulder."
+        },
+        {
+          "section_name": "soft_reveal",
+          "dialogue": "Gue mulai dari yang kecil banget. Literally lima ribu sehari — pakai SaveKu, auto potong dari e-wallet, ga kerasa sama sekali. Bukan soal jumlahnya, bro. Soal kebiasaannya. Dan ini persis sama kayak bisnis — yang survive bukan yang modal paling gede, tapi yang paling konsisten dari awal.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Casual, matter-of-fact pacing — the product name passes like a throwaway detail, not a headline. Hand gestures land on 'konsisten' and 'dari awal.' No slowing down, no change in energy around SaveKu — it's just part of the story."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Lu yang lagi di tahun pertama bisnis — udah mulai nyisihin buat diri sendiri belum? Atau masih nunggu 'nanti kalau udah stabil'?",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Slight smirk on 'nanti kalau udah stabil' — the audience recognizes their own excuse. Hold direct eye contact. Let the question sit. No music swell, no outro — just the silence doing the work."
+        }
+      ],
+      "total_duration_seconds": 31,
+      "language_notes": "Core language is Bahasa Indonesia with natural spoken fragments and trailing ellipses to replicate real monologue cadence. English loan words used sparingly and only where urban millennial entrepreneurs genuinely drop them: 'literally', 'panic-buying', 'survive'. Filler transitions ('nah ternyata', 'bro', 'dan ini persis sama') keep it grounded and unscripted-feeling. Slang tone calibrated to the warung kopi mentor archetype — direct, zero fluff, but never preachy or harsh. Sentences kept to single-breath units throughout. Passive construction 'yang terbentuk' replaced with the simpler spoken form 'kebiasaannya.' Closing aphorism in soft_reveal reworded to feel like a shared realization rather than a delivered lesson — shorter rhythm, casual 'survive' and 'dari awal' replace the more formal 'yang bisa bertahan' and 'hari pertama.' SaveKu mentioned exactly once as a casual aside mid-story, not front-loaded or highlighted. CTA is a double question that mirrors the audience's own internal rationalization, creating recognition rather than pressure. Zero forbidden words. No formal connectors. No ad-style framing anywhere."
+    },
+    "no_match_reason": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "account_id": "account_04",
+    "trend_id": "trend_04",
+    "template_id": "template_relatable_struggle",
+    "reasoning": {
+      "trend_match_rationale": "The trend 'first year bisnis jangan gini' is built around entrepreneurs sharing early-stage business mistakes through storytelling monologues — a direct structural and thematic mirror of @ngobrolbisnis whose entire niche is casual, mentor-style business talk aimed at first-time entrepreneurs. The trend is Java-regional with high engagement from aspiring small business owners aged 25–35, which is a near-exact demographic overlap with the account's stated audience.",
+      "template_selection_rationale": "The 'Relatable Struggle → Product Reveal' template fits perfectly because the trend's mistake-reveal storytelling format naturally sets up a relatable struggle arc, allowing SaveKu's micro-savings product to be introduced as the practical, low-pressure financial lesson the entrepreneur wishes they had known in year one.",
+      "alternative_considered": "trend_01 ('gaji 8 juta cukup ga sih') was the second-best option at a score of 0.45, but its framing is anchored in salaried-employee cost-of-living anxiety rather than entrepreneurial decision-making, making it a poor fit for an audience that has chosen — or is choosing — to leave traditional employment."
+    },
+    "fit_score": 0.95,
+    "script": {
+      "sections": [
+        {
+          "section_name": "hook",
+          "dialogue": "Tahun pertama bisnis gue, omzet udah jalan. Tapi tiap akhir bulan... rekening pribadi gue selalu mepet. Selalu.",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Medium shot, direct eye contact to camera. Slight pause before 'selalu' yang kedua — biarkan kata itu tenggelam. Ekspresi serius tapi tenang, bukan dramatis."
+        },
+        {
+          "section_name": "escalation",
+          "dialogue": "Gue nggak ngerti kenapa. Sampe akhirnya gue duduk, gue hitung sendiri... Sumpah bro, ternyata gue udah makan modal sendiri selama enam bulan. Duit yang gue kira 'keuntungan' itu duit operasional. Gue bahkan pernah bayar makan siang pake duit stok barang. Enam bulan, nggak sadar.",
+          "estimated_duration_seconds": 10,
+          "stage_direction": "Condong ke depan sedikit. Gunakan jari untuk hitung 'enam bulan.' Tawa kecil yang self-deprecating pas bilang soal makan siang — bukan malu, tapi lebih ke 'ya ampun gue dulu gitu.' Tempo makin lambat di kalimat terakhir."
+        },
+        {
+          "section_name": "pivot",
+          "dialogue": "Dan solusinya tuh bukan spreadsheet gede atau rekening baru yang ribet. Ternyata simpel — gue cuma butuh bikin 'duit gue sendiri' yang beneran aman. Yang nggak bakal ke-touch buat nutup keperluan bisnis dadakan.",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Sandar ke belakang sedikit, bahu lebih rileks. Nada naik tipis di kata 'simpel' — ini momen energi bergeser. Tangan terbuka, bukan menunjuk."
+        },
+        {
+          "section_name": "soft_reveal",
+          "dialogue": "Kebetulan waktu itu temen gue cerita soal SaveKu — bisa auto-sisihkan dari e-wallet, lima ribu sehari. Gila sih, kecil banget kan. Gue ketawa awalnya. Tapi untuk pertama kalinya... gue ngerasa punya uang sendiri. Yang beneran aman. Yang kalau bisnis lagi gonjang-ganjing... duit itu nggak ikut gonjang-ganjing.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Santai, seperti lagi cerita ke temen di warung kopi. Nada 'gue ketawa awalnya' harus genuine — ini bukan iklan, ini pengakuan. Jeda sebentar setelah 'punya uang sendiri' — biarkan itu napas sebelum 'yang beneran aman.' Jeda lagi sebelum kalimat terakhir, biar masuk."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Kalau lo lagi di tahun pertama bisnis sekarang — pisahin dulu. Mulai dari yang kecil aja. Lima ribu sehari. Yang penting lo udah mulai. Lu udah belum?",
+          "estimated_duration_seconds": 5,
+          "stage_direction": "Menunjuk pelan ke kamera di 'lu udah belum' — bukan agresif, tapi seperti mentor yang genuinely nanya. Senyum tipis di akhir. Fade atau cut langsung setelah pertanyaan, jangan ada tambahan apapun."
+        }
+      ],
+      "total_duration_seconds": 33,
+      "language_notes": "Bahasa Indonesia kasual dominan (~90%) dengan satu English loan word organik ('spreadsheet') yang umum di kalangan entrepreneur muda Jawa urban. Slang aktif: 'sumpah bro' (kejutan genuine), 'gila sih' (mandatory token, dipakai saat momen product reveal untuk memperkuat reaksi autentik), 'ke-touch' (hybrid natural). Kalimat sengaja pendek dan terputus — mencerminkan ritme berbicara, bukan menulis. Dua perbaikan utama: (1) CTA direvisi dari dua kalimat aphoristik paralel ('Bukan soal jumlahnya. Soal kebiasaannya.') menjadi nudge kasual yang terasa lebih natural di mulut ('Yang penting lo udah mulai.') — menghindari kesan preaching; (2) kalimat panjang di soft_reveal dipecah menjadi dua beat dengan jeda napas alami agar tidak terasa ditulis. Nada mentor warung kopi dijaga dengan self-deprecating humor di escalation, bukan preaching. SaveKu diposisikan sebagai 'temuan teman' bukan iklan — masuk di soft_reveal setelah emosi penonton sudah engaged dengan cerita."
+    },
+    "no_match_reason": null
+  }
+]

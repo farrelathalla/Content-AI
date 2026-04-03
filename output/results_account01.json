@@ -1,0 +1,44 @@
+[
+  {
+    "account_id": "account_01",
+    "trend_id": "trend_02",
+    "template_id": "template_trend_hijack",
+    "reasoning": {
+      "trend_match_rationale": "Trend_02 is a Jakarta-specific street food challenge focused on budget eats under Rp 20,000, which maps directly onto @jakartafoodcraving's core niche of Jakarta street food and cafe reviews — both the subject matter and the regional targeting are an exact match. The trend's 'multi-spot food crawl with price tags' format is fully compatible with the account's fast-paced, food-visual-driven posting style and its food-obsessed Gen-Z/millennial Jakarta audience who actively use Grab Food and care about value.",
+      "template_selection_rationale": "Template_trend_hijack is the strongest fit because the account already has a loud, personality-driven voice ('gila sih', dramatic food reactions) that can authentically ride the trend's algorithmic momentum and reach new audiences through the challenge discovery feed.",
+      "alternative_considered": "Trend_05 (cafe Bandung yang belum rame) was the second-best option due to its similar hidden-gem cafe format and aesthetic compatibility, but its Bandung-specific regional focus directly conflicts with @jakartafoodcraving's Jakarta-rooted audience and identity, making it a poor fit despite the format overlap."
+    },
+    "fit_score": 0.95,
+    "script": {
+      "sections": [
+        {
+          "section_name": "trend_hook",
+          "dialogue": "Oke jadi gue ikutan challenge ini — hidden gems warung Jakarta di bawah dua puluh ribu. Dan ini... beneran kacau.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Face-to-camera, wide eyes, holding up phone showing the 'challenge' format. Quick cut right after 'kacau' — no pause. Energy is high from frame one."
+        },
+        {
+          "section_name": "niche_twist",
+          "dialogue": "Spot pertama — nasi uduk Manggarai, dua belas ribu. Kuah semurnya ngeresep ke dalem banget, gila sih, gimana caranya? Spot kedua, mie ayam depan SMA 8, empat belas ribu. Porsinya ga wajar untuk harga segitu, serius. Dan yang ketiga — soto tangkar di gang kecil deket Stasiun Sudirman, tujuh belas ribu. Rasanya kayak masakan nenek sendiri... padahal lu makan di pinggir got.",
+          "estimated_duration_seconds": 12,
+          "stage_direction": "Cut rapidly between each spot — price tag text overlay pops on screen for each. Extreme close-up of semur kuah on nasi uduk, then noodle pull on mie ayam, then ladle of soto broth. Creator's face reacting between cuts — nodding, squinting, pointing at the bowl in disbelief. Pacing is fast, almost breathless."
+        },
+        {
+          "section_name": "product_thread",
+          "dialogue": "Terus pas gue ngitung totalnya... gue keluar kurang dari lima puluh ribu buat tiga tempat. Dan tiba-tiba gue inget — eh, tadi pagi SaveKu udah auto-potong lima ribu dari e-wallet gue. Ini real, udah jalan sendiri aja. Ga kerasa sama sekali loh.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Creator looks slightly to the side like they just remembered something — casual, not staged. Quick cut to phone screen showing the SaveKu deduction (just a glimpse, not a product demo). Back to creator face, shrugging like it's a minor footnote, then smiling. Tone drops slightly here — warmer, more conversational, like telling a friend a random thing they noticed."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Nah lu sendiri — udah nemuin warung di bawah dua puluh ribu yang worth banget belum? Serius, gue mau tau. Ada di mana?",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Back to high energy — creator points down at the comment section, eyebrows raised, genuinely curious expression. Fast cut to a final food close-up montage of all three spots in quick succession before the screen cuts. No formal ending, just abrupt cut after the question — keeps the energy raw."
+        }
+      ],
+      "total_duration_seconds": 28,
+      "language_notes": "Bahasa Indonesia dominates (~85%) with zero formal connectors — all fragmented spoken sentences with trailing thoughts ('padahal lu makan di pinggir got' lands as punchline with no setup). English loan words kept minimal and natural: 'challenge', 'worth'. Slang token 'gila sih' drops at the first food reaction — genuine, not performed. 'Ini real' placed in the product_thread as the naturalness anchor, making the SaveKu mention feel like a casual personal observation rather than a brand beat. 'Bahkan' removed from product_thread and replaced with 'Ga kerasa sama sekali loh' — fully spoken-word cadence restored at the brand moment. CTA revised to stay in question mode throughout ('udah nemuin... belum? Ada di mana?') — no command form, closes as genuine curiosity from a friend, not a call-to-action slide. Filler rhythm borrowed from References 1 and 5 — short declarative sentences, repeated structure ('Spot pertama... Spot kedua...'), and price-as-punchline cadence. Overall tone: food-obsessed millennial, zero brand-spokesperson energy."
+    },
+    "no_match_reason": null
+  }
+]

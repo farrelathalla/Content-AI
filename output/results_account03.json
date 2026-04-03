@@ -1,0 +1,44 @@
+[
+  {
+    "account_id": "account_03",
+    "trend_id": "trend_05",
+    "template_id": "template_trend_hijack",
+    "reasoning": {
+      "trend_match_rationale": "trend_05 is a hyper-local Bandung cafe discovery trend that maps directly onto @bandungdaydream's core niche of cafe hopping and aesthetic daily life, sharing identical niche tags (cafe, bandung, aesthetic, cafe hopping) with the account's stated focus. The trend's format — dreamy cafe visuals with price breakdowns — is practically indistinguishable from @bandungdaydream's own posting style of aesthetic montage with soft voiceover and lo-fi undertone, meaning the account can ride the trend without changing its natural content voice at all.",
+      "template_selection_rationale": "template_trend_hijack is the ideal fit because the trend is actively peaking (5–7 days remaining) in Bandung specifically, and @bandungdaydream's strong aesthetic personality voice is exactly what the template requires to stand out within a crowded field of creators covering the same cafe circuit.",
+      "alternative_considered": "trend_03 ('romanticize your boring life') was a strong second at 0.85 due to near-perfect format and tone alignment (aesthetic montage, lo-fi, soft life), but it was not chosen because it lacks the regional specificity and urgency of trend_05 — it is a steady evergreen trend rather than an active, time-sensitive Bandung-local moment that gives @bandungdaydream a home-field advantage."
+    },
+    "fit_score": 0.97,
+    "script": {
+      "sections": [
+        {
+          "section_name": "trend_hook",
+          "dialogue": "Gue nemu satu cafe di Bandung yang belum ada yang ngomongin... dan jujur, gue mau simpen sendiri dulu.",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Close-up shot of hands wrapped around a ceramic cup, no face reveal yet. Soft, warm morning light. Lo-fi music fades in slowly underneath. Whisper-paced delivery — like sharing a secret with one person, not broadcasting to thousands."
+        },
+        {
+          "section_name": "niche_twist",
+          "dialogue": "Masuknya lewat gang kecil yang kamu bakal skip kalau lagi buru-buru... tapi begitu di dalem. Langit-langitnya kayu, ada tanaman di mana-mana, cahaya sore masuk miring-miring gitu. Vibes-nya tuh slow banget. Kayak waktu beneran berhenti sebentar. Kopi susunya dua puluh ribu... dan kamu bakal betah sampai lupa pulang.",
+          "estimated_duration_seconds": 14,
+          "stage_direction": "Slow cinematic cuts: narrow gang leading to an unmarked entrance, then a wide reveal of the interior — warm wooden ceiling, hanging plants, golden-hour light slanting through a low window. Ends on a long, still shot of the view from the window seat. Voiceover pacing is contemplative, slightly breathless between phrases. Let the ellipses breathe. Duration adjusted to 14s to honour the dreamy delivery pace — do not rush this section."
+        },
+        {
+          "section_name": "product_thread",
+          "dialogue": "Gue bisa eksplor tempat kayak gini tiap minggu... bukan karena tiba-tiba jadi kaya. Tapi gue lagi nyoba nyisihin lima ribu sehari — pake SaveKu, auto potong dari e-wallet. Ga kerasa sama sekali. Tapi lama-lama... ada aja ternyata.",
+          "estimated_duration_seconds": 8,
+          "stage_direction": "Stay on the window seat visual — no product close-up, no phone screen cutaway. Camera slowly drifts across the interior like a daydream. Narrator's voice stays in the exact same dreamy register as before, as if continuing a private thought out loud. The SaveKu mention is offhand, never emphasized, never punched."
+        },
+        {
+          "section_name": "cta",
+          "dialogue": "Kalau mau tau lokasinya... save dulu ya. Dan lima ribu hari ini udah keluar belum?",
+          "estimated_duration_seconds": 4,
+          "stage_direction": "Final wide shot of the cafe interior fading softly to a still frame. A quiet smile implied in the voice — not a grin, just warmth. Music lingers one full beat after the last word before cutting. Zero hard-sell energy. It should feel like the end of a quiet afternoon conversation, not the end of a reel."
+        }
+      ],
+      "total_duration_seconds": 30,
+      "language_notes": "Bahasa Indonesia dominant (~90%) with zero forced English except 'vibes,' which lands natively in Gen-Z Bandung speech and appears once in niche_twist as the mandatory slang token. The only changes from the original: (1) 'tapi begitu duduk di window seatnya.' replaced with 'tapi begitu di dalem.' — the fragment now anchors cleanly before pivoting to room description, eliminating the hanging-clause stumble in pure audio delivery; (2) the 'dua puluh ribu — dua puluh ribu' price-repetition removed to trim niche_twist to a more speakable length, replaced with a single clean 'dua puluh ribu...' with ellipsis breath; (3) total duration corrected to 30s to reflect realistic dreamy-cadence delivery of niche_twist. All other original qualities preserved: self-deprecating product framing, offhand SaveKu reveal, soft dual-meaning 'save' CTA, no forbidden words, no lecturing, no hard-sell energy."
+    },
+    "no_match_reason": null
+  }
+]
